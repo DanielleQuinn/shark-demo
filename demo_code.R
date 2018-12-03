@@ -2,7 +2,7 @@
 nrow(data)
 
 # How many of each of our study species did we catch?
-countr_sharks()
+count_sharks()
 
 # Let's put our data on a graph!
 bargraph_sharks()

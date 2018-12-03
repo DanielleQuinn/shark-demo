@@ -1,15 +1,8 @@
-###########################################
-# John Muir Elementary School Shark Study #
-###########################################
-
 # How many sharks did we catch?
 nrow(data)
 
-# How many different kind of sharks did we catch?
-n_distinct(data$species)
-
 # How many of each of our study species did we catch?
-table(studydata$species)
+countr_sharks()
 
 # Let's put our data on a graph!
 bargraph_sharks()
@@ -20,11 +13,11 @@ bargraph_sharks()
 # Start by drawing the ocean
 draw_ocean()
 
-# Add the ocean floor so we can see different depths of water
-add_floor()
-
 # Now add the sharks!
 add_sharks()
+
+# What have we learned about each species?
+# What fishing rules could we make to protect each species?
 
 # What do we know about migration?
 # Let's see if each species migrates into deeper or shallower water during different seasons
@@ -34,4 +27,5 @@ by_season("Spinytail Skate")
 by_season("Deepwater Catshark")
 by_season("Black Dogfish")
 
-
+# What have we learned about each species?
+# What fishing rules could we make to protect each species?

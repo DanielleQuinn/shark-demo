@@ -24,7 +24,7 @@ add_sharks()
 # One species at a time
 by_season("Greenland Shark")
 by_season("Spinytail Skate")
-by_season("Deepwater Catshark")
+by_season("Deep-Water Catshark")
 by_season("Black Dogfish")
 
 # What have we learned about each species?
